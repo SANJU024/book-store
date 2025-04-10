@@ -9,7 +9,7 @@ import DeleteBooks from "./pages/DeleteBooks";
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<Home/>} />
+      <Route path='/book-store' element={<Home/>} />
       <Route path='/books/create' element={<CreateBooks/>} />
       <Route path='/books/details/:id' element={<ShowBooks/>} />
       <Route path='/books/edit/:id' element={<EditBooks/>} />

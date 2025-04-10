@@ -21,7 +21,7 @@ function ShowBooks(){
             console.log(err);
             setLoading(false);
         })
-    },[])
+    },[id])
     return (
         <div>
             <style>{`
